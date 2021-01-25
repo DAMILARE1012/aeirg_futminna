@@ -14,10 +14,10 @@
                         <div class="col-lg-6">
                             <div class="about_content">
                                 <div class="section_title">
-                                    <h3 class="title" tyle="text-align: centre!important;">About <span>PowerTech Unit</span></h3>
+                                    <h3 class="title" tyle="text-align: centre!important;">About <span>Power-Tech Unit</span></h3>
                                     <p style="text-align: justify;">Specialists in the development, deployment and application of technological solutions and innovations in the energy sector.   
                                          We offer tech-enabled services in energy utilisation. The unit is made up of researchers and experts in designing and applying technology, thereby improving energy independence and usage efficiency. We are into tech-heavy hardware, software, and tech-enabled services for solar energy, hydro energy, wind energy, bioenergy, and geothermal energy. <br>
-                                        In EnerTech Research Unit, we support education through the undergraduate and graduate-level project's work to provide tech-enabled solutions to practical problems. The academia at ETRU works with the industry to explore modern technology in power systems planning and operations, FACTS deployment, Distributed Generation, Microgrid Planning and Optimisation of renewable resources. 
+                                        In Power-Tech research unit, we support education through the undergraduate and graduate-level project's work to provide tech-enabled solutions to practical problems. The academia at ETRU works with the industry to explore modern technology in power systems planning and operations, FACTS deployment, Distributed Generation, Microgrid Planning and Optimisation of renewable resources. 
                                         </p>
                                     <h5 style="text-align: centre!important; color: red; margin-top: 10px;"><span>Vision</span></h5>
                                     <p style="text-align: justify;">To become the hub of emerging tech-enabled solutions and innovation, thereby ensuring and aiding access to safe, affordable, reliable, sustainable and modern energy in Nigeria.</p>
@@ -131,9 +131,9 @@
                     <div class="col-lg-3">
                         <div class="team-box text-center py-3 rounded mt-4">
                             <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
+                                <img src="{{ asset('assets/images/units_pix/dr_sadiq.jpeg') }}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <h6 class="f-18 mt-4 mb-2">Abubakar Sadiq Ahmad (Ph.D)</h6>
+                            <h6 class="f-18 mt-4 mb-2"> S.A. Abubakar (Ph.D)</h6>
                             <p class="text-muted">Team Lead</p>
                             <hr>
                         </div>
@@ -142,10 +142,10 @@
                     <div class="col-lg-3">
                         <div class="team-box text-center py-3 rounded mt-4">
                             <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
+                                <img src="{{ asset('assets/images/units_pix/damilare.jpeg') }}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <h6 class="f-18 mt-4 mb-2">Abiodun Taliha Folorunso(Ph.D)</h6>
-                            <p class="text-muted">Senior Researcher</p>
+                            <h6 class="f-18 mt-4 mb-2">Damilare Olatunji)</h6>
+                            <p class="text-muted">Co-Researcher</p>
                             <hr>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                     <div class="col-lg-3">
                         <div class="team-box text-center py-3 rounded mt-4">
                             <div class="team-img">
-                                <img src="{{ asset('assets/images/person1.png') }}" class="img-fluid rounded-circle" alt="">
+                                <img src="{{ asset('assets/images/units_pix/ifetola.png') }}" class="img-fluid rounded-circle" alt="">
                             </div>
                             <h6 class="f-18 mt-4 mb-2">Ifetola Madaki</h6>
                             <p class="text-muted">Research Assistant</p>

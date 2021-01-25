@@ -29,3 +29,6 @@ Route::get('powerTech', 'UnitsController@powerTech')->name('powerTech');
 Route::get('Elearning', 'UnitsController@Elearning')->name('Elearning');
 Route::get('autotronics', 'UnitsController@autotronics')->name('autotronics');
 Route::get('webDev', 'UnitsController@webDev')->name('webDev');
+Route::get('awp', 'UnitsController@awp')->name('awp');
+Route::get('precision_agric', 'UnitsController@precision_agric')->name('precision_agric');
+Route::get('uav', 'UnitsController@uav')->name('uav');

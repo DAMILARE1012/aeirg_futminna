@@ -141,7 +141,7 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/person1.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/dr_caroline.png') }}" class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Caroline Alenoghena (Ph.D)</h6>
                         <p class="text-muted">Team Lead</p>
@@ -152,7 +152,7 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/kolo_ezra.jpeg') }}" class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Kolo Ezra Zhiri</h6>
                         <p class="text-muted">Full Stack and Mobile App Developer</p>
@@ -163,7 +163,7 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/benjamen.jpeg') }}" class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Benjamin Alenoghena</h6>
                         <p class="text-muted">Full Stack Web Developer</p>
@@ -174,7 +174,7 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/damilare.jpeg') }}" class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Olatunji Damilare</h6>
                         <p class="text-muted">Front-End Web Developer</p>

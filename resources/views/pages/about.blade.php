@@ -36,7 +36,7 @@
                             <div class="about_counter d-flex flex-wrap" style="justify-content: center">
                                 <div class="single_counter counter_1 d-flex justify-content-center align-items-center wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
                                     <div class="counter_wrapper">
-                                        <span class="counter">234</span>
+                                        <span class="counter">134</span>
                                         <p>Executed Projects</p>
                                     </div> 
                                 </div> 
@@ -78,48 +78,61 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="team-box text-center py-3 rounded mt-4">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/images/units_pix/prof_musa.jpeg') }}" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <h6 class="f-18 mt-4 mb-2">Musa Abiodun Aibinu (Ph.D)</h6>
+                            <p class="text-muted">Team Coordinator</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                
     
                 <div class="row mt-5 pt-2">
                     <div class="col-lg-3">
                         <div class="team-box text-center py-3 rounded mt-4">
                             <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <h6 class="f-18 mt-4 mb-2">Musa Abiodun Aibinu (Ph.D)</h6>
-                            <p class="text-muted">Team Lead</p>
-                            <hr>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <div class="team-box text-center py-3 rounded mt-4">
-                            <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <h6 class="f-18 mt-4 mb-2">Abiodun Taliha Folorunso(Ph.D)</h6>
-                            <p class="text-muted">Senior Researcher</p>
-                            <hr>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <div class="team-box text-center py-3 rounded mt-4">
-                            <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <h6 class="f-18 mt-4 mb-2">David Michael</h6>
-                            <p class="text-muted">Senior Researcher</p>
-                            <hr>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <div class="team-box text-center py-3 rounded mt-4">
-                            <div class="team-img">
-                                <img src="{{ asset('assets/images/person1.png') }}" class="img-fluid rounded-circle" alt="">
+                                <img src="{{ asset('assets/images/units_pix/dr_caroline.png') }}" class="img-fluid rounded-circle" alt="">
                             </div>
                             <h6 class="f-18 mt-4 mb-2">Alenoghena Caroline (Ph.D)</h6>
-                            <p class="text-muted">Senior Researcher</p>
+                            <p class="text-muted">Team Lead: e-Learning </p>
+                            <hr>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="team-box text-center py-3 rounded mt-4">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/images/units_pix/dr_folorunso.jpg') }}" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <h6 class="f-18 mt-4 mb-2">T.A. Folorunso(Ph.D)</h6>
+                            <p class="text-muted">Team Lead: Precision Agric.</p>
+                            <hr>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="team-box text-center py-3 rounded mt-4">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/images/units_pix/dr_sadiq.jpeg') }}" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <h6 class="f-18 mt-4 mb-2"> S.A. Abubakar(Ph.D)</h6>
+                            <p class="text-muted">Team Lead: Power-Tech</p>
+                            <hr>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="team-box text-center py-3 rounded mt-4">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <h6 class="f-18 mt-4 mb-2">Seun Ojerinde (Ph.D)</h6>
+                            <p class="text-muted">Team Lead: AWP</p>
                             <hr>
                         </div>
                     </div>
@@ -129,8 +142,30 @@
                             <div class="team-img">
                                 <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <h6 class="f-18 mt-4 mb-2">David Michael (Ph.D)</h6>
-                            <p class="text-muted">Team Lead</p>
+                            <h6 class="f-18 mt-4 mb-2">Abdullahi Daniyan(Ph.D)</h6>
+                            <p class="text-muted">Team Lead: AWP</p>
+                            <hr>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="team-box text-center py-3 rounded mt-4">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/images/units_pix/jibril_bala.jpeg') }}" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <h6 class="f-18 mt-4 mb-2">J.A. Bala</h6>
+                            <p class="text-muted">Team Lead: Autotronics</p>
+                            <hr>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="team-box text-center py-3 rounded mt-4">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/images/units_pix/kolo_ezra.jpeg') }}" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <h6 class="f-18 mt-4 mb-2">Ezra Zihri Kolo </h6>
+                            <p class="text-muted">Team Lead: Software Dev.</p>
                             <hr>
                         </div>
                     </div>
@@ -140,30 +175,8 @@
                             <div class="team-img">
                                 <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <h6 class="f-18 mt-4 mb-2">Olatomiwa Lanre(Ph.D)</h6>
-                            <p class="text-muted">Senior Researcher</p>
-                            <hr>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <div class="team-box text-center py-3 rounded mt-4">
-                            <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <h6 class="f-18 mt-4 mb-2">Yusuf </h6>
-                            <p class="text-muted">Senior Researcher</p>
-                            <hr>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <div class="team-box text-center py-3 rounded mt-4">
-                            <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <h6 class="f-18 mt-4 mb-2"> Adedigba Yinka</h6>
-                            <p class="text-muted">Researcher</p>
+                            <h6 class="f-18 mt-4 mb-2"> A.P. Adedigba </h6>
+                            <p class="text-muted">Team Lead: DSP</p>
                             <hr>
                         </div>
                     </div>

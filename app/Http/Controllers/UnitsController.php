@@ -24,4 +24,16 @@ class UnitsController extends Controller
     {
         return view('pages.units.webDev');
     }
+    public function awp()
+    {
+        return view('pages.units.awp');
+    }
+    public function precision_agric()
+    {
+        return view('pages.units.precision_agric');
+    }
+    public function uav()
+    {
+        return view('pages.units.uav');
+    }
 }

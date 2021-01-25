@@ -11006,7 +11006,7 @@ h2 {
 
 .team-box .team-img img {
     width: 170px;
-    height: 150px!important;
+    height: 170px!important;
     border-radius: 0%!important;
     -webkit-box-shadow: 0 6px 50px rgba(0, 0, 0, 0.05);
     box-shadow: 0 6px 50px rgba(0, 0, 0, 0.05);
@@ -19207,7 +19207,7 @@ button.bg-dark:hover {
 
 .mt-5,
 .my-5 {
-    margin-top: 3rem!important
+    margin-top: 1rem!important;
 }
 
 .mr-5,
@@ -20928,7 +20928,8 @@ button.bg-dark:hover {
 }
 
 .text-left {
-    text-align: left!important
+    text-align: left!important;
+    padding-left: 20px;
 }
 
 .text-right {
