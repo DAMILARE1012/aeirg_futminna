@@ -26,7 +26,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">E-Learning</h4>
                             <p class="text-left" style="font-size: 14px;">The E-Learning Research Unit, a mem... <a
-                                    href="{{ route('Elearning') }}" class="btn btn-primary btn-sm">Read More</a></p>
+                                    href="{{ route('Elearning') }}" class="btn btn-primary btn-sm">View Unit</a></p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Antenna and Wave Propagation</h4>
                             <p class="text-left" style="font-size: 14px;">The advances in technology has made.... <a
-                                    href="{{ route('awp') }}" class="btn btn-primary btn-sm">Read More</a></p>
+                                    href="{{ route('awp') }}" class="btn btn-primary btn-sm">View Unit</a></p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Autonomous Vehicles: Autotronics</h4>
                             <p class="text-left" style="font-size: 14px;">The Autonomous Vehicles, Autotronics,... <a
-                                    href="{{ route('autotronics') }}" class="btn btn-primary btn-sm">Read More</a></p>
+                                    href="{{ route('autotronics') }}" class="btn btn-primary btn-sm">View Unit</a></p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Unmanned Aerial Vehicle(UAV)</h4>
                             <p class="text-left" style="font-size: 14px;">Experts in design, development... <a
-                                    href="{{ route('uav') }}" class="btn btn-primary btn-sm">Read More</a></p>
+                                    href="{{ route('uav') }}" class="btn btn-primary btn-sm">View Unit</a></p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Web & Mobile Dev.</h4>
                             <p class="text-left" style="font-size: 14px;">The web development unit is a member of ... <a
-                                    href="{{ route('webDev') }}" class="btn btn-primary btn-sm">Read More</a></p>
+                                    href="{{ route('webDev') }}" class="btn btn-primary btn-sm">View Unit</a></p>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Precision Agriculture</h4>
                             <p class="text-left" style="font-size: 14px;">The Percision Agriculture Research... <a
-                                    href="{{ route('precision_agric') }}" class="btn btn-primary btn-sm ">Read More</a></p>
+                                    href="{{ route('precision_agric') }}" class="btn btn-primary btn-sm ">View Unit</a></p>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Power-Tech (PT)</h4>
                             <p class="text-left" style="font-size: 14px;">Specialists in the development,...<a
-                                    href="{{ route('powerTech') }}" class="btn btn-primary btn-sm">Read More</a></p>
+                                    href="{{ route('powerTech') }}" class="btn btn-primary btn-sm">View Unit</a></p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Digital Signal Processing (DSP)</h4>
                             <p class="text-left" style="font-size: 14px;">Specialists in the development,...<a href="#"
-                                    class="btn btn-primary btn-sm disabled">Read More</a></p>
+                                    class="btn btn-primary btn-sm disabled">View Unit</a></p>
                         </div>
                     </div>
                 </div>

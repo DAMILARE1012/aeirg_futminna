@@ -38,7 +38,8 @@
                                                 style="padding: 8px; margin:2px; color: white!important;y"><span
                                                     class="lnr lnr-layers {{ Request()->is('seminars') ? 'active' : '' }}"
                                                     style="padding-right: 12px; color: white!important;"></span>Seminars
-                                                <sup style="color: red;"><b>New</b></sup></a>
+                                                {{-- <sup style="color: red;"><b>New</b></sup> --}}
+                                            </a>
                                             <a href="#" style="padding: 8px; margin:2px; color: white!important;"><span
                                                     class="lnr lnr-apartment {{ Request()->is('training') ? 'active' : '' }}"
                                                     style="padding-right: 12px; "></span>Trainings</a>

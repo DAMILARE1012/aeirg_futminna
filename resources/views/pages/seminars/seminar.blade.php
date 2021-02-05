@@ -24,13 +24,13 @@
 
                         <div class="destination_content">
                             <a href="javascript:void(0)" class="main-btn" style="color: red;"><b>Jan 27, 2021</b></a>
-                            <h4 class="title"><a href="https://forms.gle/GBvLxM3tkYpCz3zt6" target="_blank"
+                            <h4 class="title"><a href="#" target="_blank"
                                     rel=”noreferrer”>2021 TEF Entrepreneurship Training Programme</a></h4>
                             <p class="price">
-                                <a class="price" href="https://forms.gle/GBvLxM3tkYpCz3zt6" target="_blank"
-                                    rel=”noreferrer”><b>Click Here to Register</b></a>
+                                <a class="price" href="#" target="_blank"
+                                    rel=”noreferrer”><b>Closed</b></a>
                             </p>
-                            <a class="more" href="https://forms.gle/GBvLxM3tkYpCz3zt6" target="_blank" rel=”noreferrer”><i
+                            <a class="more" href="#" target="_blank" rel=”noreferrer”><i
                                     class="lni lni-chevron-right"></i></a>
                         </div>
                     </div>
