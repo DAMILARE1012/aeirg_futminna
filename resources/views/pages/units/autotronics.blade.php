@@ -63,8 +63,7 @@
                                     </span>
                                 </p>
                             </div>
-                            {{-- <a href="javascript:void(0)" class="main-btn">Read More</a>
-                            --}}
+                            {{-- <a href="javascript:void(0)" class="main-btn">Read More</a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -152,7 +151,8 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/attaihru.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/attaihru.png') }}"
+                                class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Jibril Attahiru</h6>
                         <p class="text-muted">Embedded systems</p>
@@ -163,7 +163,8 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/mariam.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/mariam.png') }}" class="img-fluid rounded-circle"
+                                alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Mariam O. Sulleiman</h6>
                         <p class="text-muted">Software Dev and IoT</p>
@@ -174,7 +175,8 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/babatunde.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/babatunde.png') }}"
+                                class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Babatunde Eric Olatunji</h6>
                         <p class="text-muted">UI Design</p>

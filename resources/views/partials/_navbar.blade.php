@@ -31,21 +31,20 @@
                                         class="page-scroll" href="{{ route('contact') }}">Contact</a> </li>
                                 <li class="nav-item">
                                     <div class="dropdown">
-                                        <button class="dropbtn">Opportunities <span class="lnr lnr-chevron-down-circle"
+                                        <button class="dropbtn">Opportunities <sup style="color: #fff;"><b>New</b></sup> <span class="lnr lnr-chevron-down-circle"
                                                 style="padding-right: 8px;"></span></button>
                                         <div class="dropdown-content">
                                             <a href="{{ route('seminars') }}"
                                                 style="padding: 8px; margin:2px; color: white!important;y"><span
                                                     class="lnr lnr-layers {{ Request()->is('seminars') ? 'active' : '' }}"
                                                     style="padding-right: 12px; color: white!important;"></span>Seminars
-                                                {{-- <sup style="color: red;"><b>New</b></sup> --}}
                                             </a>
                                             <a href="#" style="padding: 8px; margin:2px; color: white!important;"><span
                                                     class="lnr lnr-apartment {{ Request()->is('training') ? 'active' : '' }}"
                                                     style="padding-right: 12px; "></span>Trainings</a>
-                                            <a href="#" style="padding: 8px; margin:2px; color: white!important;"><span
+                                            <a href="{{ route('internship') }}" style="padding: 8px; margin:2px; color: white!important;"><span
                                                     class="lnr lnr-enter {{ Request()->is('internship') ? 'active' : '' }}"
-                                                    style="padding-right: 12px; "></span>Internship</a>
+                                                    style="padding-right: 12px; "></span>Internship <sup style="color: red;"><b>New</b></sup></a>
                                         </div>
                                     </div>
                                 </li>
