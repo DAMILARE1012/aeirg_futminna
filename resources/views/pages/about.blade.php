@@ -84,8 +84,8 @@
                             <div class="team-img">
                                 <img src="{{ asset('assets/images/units_pix/prof_musa.jpeg') }}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <h6 class="f-18 mt-4 mb-2">Musa Abiodun Aibinu (Ph.D)</h6>
-                            <p class="text-muted">Team Coordinator</p>
+                            <h6 class="f-18 mt-4 mb-2">Abiodun Musa Aibinu (Ph.D)</h6>
+                            <p class="text-muted">Group Coordinator</p>
                             <hr>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                     <div class="col-lg-3">
                         <div class="team-box text-center py-3 rounded mt-4">
                             <div class="team-img">
-                                <img src="{{ asset('assets/images/pix.png') }}" class="img-fluid rounded-circle" alt="">
+                                <img src="{{ asset('assets/images/units_pix/dr_daniyan.jpeg') }}" class="img-fluid rounded-circle" alt="">
                             </div>
                             <h6 class="f-18 mt-4 mb-2">Abdullahi Daniyan(Ph.D)</h6>
                             <p class="text-muted">Team Lead: AWP</p>

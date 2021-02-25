@@ -21,30 +21,53 @@
                                         class="page-scroll" href="{{ route('about') }}">About</a> </li>
                                 <li class="nav-item {{ Request()->is('units') ? 'active' : '' }}"> <a
                                         class="page-scroll" href="{{ route('units') }}">Units</a> </li>
-                                <li class="nav-item" {{ Request()->is('achievements') ? 'active' : '' }}> <a
-                                        class="page-scroll" href="{{ route('achievements') }}">Achievements</a> </li>
                                 <li class="nav-item {{ Request()->is('gallery') ? 'active' : '' }}"> <a
-                                        class="page-scroll" href="{{ route('gallery') }}">Gallery</a> </li>
-                                {{-- <li class="nav-item"> <a class="page-scroll"
-                                        href="{{ route('blog') }}">Blog</a> </li> --}}
+                                        class="page-scroll" href="{{ route('ai4ce_events') }}">Gallery</a> </li>
+                                <li class="nav-item ">
+                                    <div class="dropdown">
+                                        <button class="drop_btn">
+                                            Activities <span class="lnr lnr-chevron-down-circle chevron-white"
+                                                style="padding-right: 8px;"></span></button>
+                                        <div class="dropdown-content">
+                                            <a href="{{ route('project18') }}"
+                                                style="padding: 8px; margin:2px; color: white!important;"><span
+                                                    class="lnr lnr-layers {{ Request()->is('seminars') ? 'active' : '' }}"
+                                                    style="padding-right: 12px; color: white!important;"></span>Projects
+                                            </a>
+                                            <a href="{{ route('programmes') }}"
+                                                style="padding: 8px; margin:2px; color: white!important;"><span
+                                                    class="lnr lnr-apartment {{ Request()->is('training') ? 'active' : '' }}"
+                                                    style="padding-right: 12px; "></span>Programmes
+                                            </a>
+
+                                            <a href="#" style="padding: 8px; margin:2px; color: white!important;"><span
+                                                    class="lnr lnr-layers {{ Request()->is('training') ? 'active' : '' }}"
+                                                    style="padding-right: 12px; "></span>Publications
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li class="nav-item {{ Request()->is('contact') ? 'active' : '' }}"> <a
                                         class="page-scroll" href="{{ route('contact') }}">Contact</a> </li>
                                 <li class="nav-item">
                                     <div class="dropdown">
-                                        <button class="dropbtn">Opportunities <sup style="color: #fff;"><b>New</b></sup> <span class="lnr lnr-chevron-down-circle"
+                                        <button class="dropbtn">Opportunities <sup style="color: #fff;"><b>New</b></sup>
+                                            <span class="lnr lnr-chevron-down-circle"
                                                 style="padding-right: 8px;"></span></button>
                                         <div class="dropdown-content">
                                             <a href="{{ route('seminars') }}"
-                                                style="padding: 8px; margin:2px; color: white!important;y"><span
+                                                style="padding: 8px; margin:2px; color: white!important;"><span
                                                     class="lnr lnr-layers {{ Request()->is('seminars') ? 'active' : '' }}"
                                                     style="padding-right: 12px; color: white!important;"></span>Seminars
                                             </a>
                                             <a href="#" style="padding: 8px; margin:2px; color: white!important;"><span
                                                     class="lnr lnr-apartment {{ Request()->is('training') ? 'active' : '' }}"
                                                     style="padding-right: 12px; "></span>Trainings</a>
-                                            <a href="{{ route('internship') }}" style="padding: 8px; margin:2px; color: white!important;"><span
+                                            <a href="{{ route('internship') }}"
+                                                style="padding: 8px; margin:2px; color: white!important;"><span
                                                     class="lnr lnr-enter {{ Request()->is('internship') ? 'active' : '' }}"
-                                                    style="padding-right: 12px; "></span>Internship <sup style="color: red;"><b>New</b></sup></a>
+                                                    style="padding-right: 12px; "></span>Internship <sup
+                                                    style="color: red;"><b>New</b></sup></a>
                                         </div>
                                     </div>
                                 </li>

@@ -18,9 +18,9 @@ class PageController extends Controller
         return view('pages.about');
     }
 
-    public function blog()
+    public function programmes()
     {
-        return view('pages.blog');
+        return view('pages.programme');
     }
 
     public function contact()
@@ -28,14 +28,9 @@ class PageController extends Controller
         return view('pages.contact');
     }
 
-    public function gallery()
+    public function projects()
     {
-        return view('pages.gallery');
-    }
-
-    public function achievements()
-    {
-        return view('pages.achievements');
+        return view('pages.projects');
     }
 
     public function units()

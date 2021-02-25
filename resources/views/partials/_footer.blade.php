@@ -4,7 +4,8 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 order-md-1 order-lg-1">
                     <div class="footer_about mt-50">
-                        <a href="#"><img src="{{ asset('assets/images/logo.svg') }}" alt="logo"></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo.svg') }}"
+                                alt="logo"></a>
                         <p>An industry-oriented, multi-disciplinary, research group that specialize in research and
                             development, governmental contracting, and commercialization of innovations.</p>
                     </div>
@@ -17,8 +18,8 @@
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 <li><a href="{{ route('about') }}">About</a></li>
                                 <li><a href="{{ route('units') }}">Units</a></li>
-                                <li><a href="{{ route('achievements') }}">Achievements</a></li>
-                                <li><a href="{{ route('gallery') }}">Gallery</a></li>
+                                <li><a href="{{ route('project18') }}">Projects</a></li>
+                                <li><a href="{{ route('ai4ce_events') }}">Gallery</a></li>
                             </ul>
                         </div>
                         <div class="footer_link mt-45">
@@ -31,26 +32,34 @@
                 </div>
                 <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
                     <div class="footer_about mt-45">
-                        <h4 class="footer_title">Our Social Media Handle</h4>
-                        <p>Kindly follow us on our social media handles...</p>
+                        <h4 class="footer_title">Our other websites</h4>
+                        <p>Kindly our other websites...</p>
                         <ul class="social">
-                            <li><a class="social_1" href="javascript:void(0)"><i
-                                        class="lni lni-facebook-original"></i></a></li>
-                            <li><a class="social_2" href="javascript:void(0)"><i
-                                        class="lni lni-twitter-original"></i></a></li>
-                            <li><a class="social_3" href="javascript:void(0)"><i
-                                        class="lni lni-instagram-original"></i></a></li>
-                            <li><a class="social_4" href="javascript:void(0)"><i
-                                        class="lni lni-linkedin-original"></i></a></li>
+                            <li><a href="https://futminna.edu.ng/" target="_blank"><img
+                                        src="{{ asset('assets/images/futminna.png') }}" alt="" class="social_1"></a>
+                            </li>
+                            <li><a href="https://ai4ce.com.ng/" target="_blank"><img
+                                        src="{{ asset('assets/images/ai4ce.jpeg') }}" alt="" class="social_1"></a>
+                            </li>
+
+                            <li><a href="https://uavcompetition.com.ng/" target="_blank"><img
+                                src="{{ asset('assets/images/uav.jpeg') }}" alt="" class="social_1"></a>
+                            </li>
+
+                            {{-- <li><a  href="ai4ce.com.ng"><img src="{{ asset('assets/images/futminna.png') }}" alt="" class="social_1"></a></li> --}}
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <p class="text-center mt-90">Designed and Developed by <a href="javascript:void(0)">EDU-DEE </a> &copy;
-            Copyright 2021</p>
+        <div>
+            <a href="#" class="back-to-top"><i class="lni lni-chevron-up" style="color: #fff!important;"></i></a>
+        </div>
+        
+        <p class="text-center mt-90"> &copy;
+            2021 AEIRG. All rights reserved</p>
     </div>
 </section>
 
 
-<a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+

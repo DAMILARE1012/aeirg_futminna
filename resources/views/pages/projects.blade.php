@@ -1,7 +1,7 @@
 
 @extends('partials.master')
 
-@section('title', '| Achievements')
+@section('title', '| Executed Projects')
 
 @section('content')
 
@@ -10,11 +10,26 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center pb-25">
-                        <h3 class="title">Achievements</h3>
-                        <p>Executed projects...</p>
+                        <h3 class="title">Executed Projects</h3>
+                        {{-- <p>Executed projects...</p> --}}
                     </div> 
                 </div>
             </div> 
+            
+            <section id="portfolio" class="portfolio">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                      <ul id="portfolio-flters" style="padding: 0; margin: 0 auto 25px auto; list-style: none; text-align: center;  border-radius: 50px;">
+                        <li data-filter="*" class="{{ Request()->is('projects/projects_18_20') ? 'filter-active' : '' }}"><a href="{{ route('project18') }}">2020-2018</a></li>
+                        <li data-filter="*" class="{{ Request()->is('projects/projects_15_17') ? 'filter-active' : '' }}"><a href="{{ route('project15') }}">2017-2015</a></li>
+                        <li data-filter="*" class="{{ Request()->is('projects/projects_12_14') ? 'filter-active' : '' }}"><a href="{{ route('project12') }}">2014-2012</a></li>
+                        <li data-filter="*" class="{{ Request()->is('projects/projects_09_11') ? 'filter-active' : '' }}"><a href="{{ route('project09') }}">2011-2009</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </section>
             
             <div class="row">
                 <div class="col-lg-4 col-md-6">
