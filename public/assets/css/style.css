@@ -1200,6 +1200,12 @@ p {
   width: 100%;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  transition: 1.5s;
+}
+
+.single_gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
 
 .single_gallery a {

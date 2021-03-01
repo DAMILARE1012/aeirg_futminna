@@ -25,7 +25,9 @@ class GalleryController extends Controller
 
     public function aeirg_retreat()
     {
+       
         $images = \File::allFiles(public_path('assets/images/gallery/aeirg_retreat'));
+        
 
         return view('pages.gallery.aeirg_retreat')->with(array('images'=>$images));
     }

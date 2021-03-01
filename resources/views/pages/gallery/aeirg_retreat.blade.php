@@ -3,6 +3,12 @@
 
 @section('title', '| Gallery - AEIRG Retreat')
 
+@section('gallery_css')
+
+<link rel="stylesheet" href="{{ asset('assets/css/lightbox.min.css') }}">
+
+@endsection
+
 @section('content')
 
     <section id="gallery" class="gallery_area pt-120 pb-130">
@@ -38,7 +44,7 @@
                     <div class="col-sm-3">
                         <div class="single_gallery mt-30">
                             <img src="{{ asset('assets/images/gallery/aeirg_retreat/'. $image->getFilename()) }}" alt="gallery">
-                            <a class="image-popup" href="{{ asset('assets/images/gallery/aeirg_retreat/'. $image->getFilename()) }}"><i class="lni lni-plus"></i></a>
+                            <a class="image-popup" href="{{ asset('assets/images/gallery/aeirg_retreat/'. $image->getFilename()) }}" data-lightbox="mygallery" data-title="AEIRG Retreat - Jan., 2021"><i class="lni lni-plus"></i></a>
                         </div> 
                     </div>
                     @endforeach
@@ -48,5 +54,12 @@
     </section>
 
     @include('partials._footer')
+
+    
+@endsection
+
+@section('gallery_js')
+
+    <script src="{{ asset('assets/js/lightbox-plus-jquery.min.js') }}" type="text/javascript"></script>
 
 @endsection

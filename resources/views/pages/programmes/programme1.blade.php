@@ -2,6 +2,12 @@
 
 @section('title', '| Programme')
 
+@section('gallery_css')
+
+    <link rel="stylesheet" href="{{ asset('assets/css/lightbox.min.css') }}">
+
+@endsection
+
 @section('content')
 
     <section section id="about" class="about" class="destination_area pt-150 pb-130" style="margin-top: 150px;">
@@ -62,13 +68,22 @@
                 <h2>Captions</h2>
                 <div class="row mb-4">
                     <div class="row">
+                        <?php $count = 0; ?>
                         @foreach ($images as $image)
+                            <?php if ($count == 8) {
+                            break;
+                            } ?>
                             <div class="col-sm-3">
                                 <div class="single_gallery mt-30">
-                                    <img src="{{ asset('images/' . $image->getFilename()) }}" alt="gallery">
-                                    <a class="image-popup" href="{{ asset('images/' . $image->getFilename()) }}"><i class="lni lni-plus"></i></a>
-                                </div> 
+                                    <img src="{{ asset('assets/images/gallery/aeirg_retreat/' . $image->getFilename()) }}"
+                                        alt="gallery">
+                                    <a class="image-popup"
+                                        href="{{ asset('assets/images/gallery/aeirg_retreat/' . $image->getFilename()) }}"
+                                        data-lightbox="mygallery" data-title="AEIRG Retreat - Jan., 2021"><i
+                                            class="lni lni-plus"></i></a>
+                                </div>
                             </div>
+                            <?php $count++; ?>
                         @endforeach
                     </div>
                 </div>
@@ -77,12 +92,14 @@
         </div>
     </section>
     <!-- End About Section -->
-    
-    <div class="col-lg-12">
-        
-    </div>
+
     @include('partials._footer')
 
 @endsection
 
 
+@section('gallery_js')
+
+    <script src="{{ asset('assets/js/lightbox-plus-jquery.min.js') }}" type="text/javascript"></script>
+
+@endsection

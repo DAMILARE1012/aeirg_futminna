@@ -18,3 +18,4 @@
 <script src="{{ asset('assets/js/main.js') }}" type="7b8c5a1303d6e0062ccef5d0-text/javascript"></script>
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="7b8c5a1303d6e0062ccef5d0-|49" defer=""></script>
 
+@yield('gallery_js')
