@@ -4,7 +4,7 @@
 
 @section('gallery_css')
 
-    <link rel="stylesheet" href="{{ asset('assets/css/lightbox.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/lightbox.min.css') }}">
 
 @endsection
 
@@ -69,22 +69,16 @@
                 <div class="row mb-4">
                     <div class="row">
                         <?php $count = 0; ?>
-                        @foreach ($images as $image)
-                            <?php if ($count == 8) {
-                            break;
-                            } ?>
-                            <div class="col-sm-3">
-                                <div class="single_gallery mt-30">
-                                    <img src="{{ asset('assets/images/gallery/aeirg_retreat/' . $image->getFilename()) }}"
-                                        alt="gallery">
-                                    <a class="image-popup"
-                                        href="{{ asset('assets/images/gallery/aeirg_retreat/' . $image->getFilename()) }}"
-                                        data-lightbox="mygallery" data-title="AEIRG Retreat - Jan., 2021"><i
-                                            class="lni lni-plus"></i></a>
+                            @foreach ($images as $image)
+                                <?php if($count == 8) break; ?>
+                                <div class="col-sm-3">
+                                    <div class="single_gallery mt-30">
+                                        <img src="{{ asset('assets/images/gallery/aeirg_retreat/'. $image->getFilename()) }}" alt="gallery">
+                                        <a class="image-popup" href="{{ asset('assets/images/gallery/aeirg_retreat/'. $image->getFilename()) }}" data-lightbox="mygallery" data-title="AEIRG Retreat - Jan., 2021"><i class="lni lni-plus"></i></a>
+                                    </div> 
                                 </div>
-                            </div>
-                            <?php $count++; ?>
-                        @endforeach
+                                    <?php $count++; ?>
+                            @endforeach
                     </div>
                 </div>
             </div>
@@ -92,7 +86,7 @@
         </div>
     </section>
     <!-- End About Section -->
-
+    
     @include('partials._footer')
 
 @endsection
@@ -100,6 +94,6 @@
 
 @section('gallery_js')
 
-    <script src="{{ asset('assets/js/lightbox-plus-jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/lightbox-plus-jquery.min.js') }}" type="text/javascript"></script>
 
 @endsection
