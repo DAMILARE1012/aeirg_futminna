@@ -16,6 +16,8 @@ Route::get('/', 'PageController@index')->name('home');
 Route::get('about', 'PageController@about')->name('about');
 Route::get('programmes', 'PageController@programmes')->name('programmes');
 Route::get('contact', 'PageController@contact')->name('contact');
+Route::post('contact', 'PageController@postContact');
+
 // Route::get('projects', 'PageController@projects')->name('projects');
 Route::get('team', 'PageController@team')->name('team');
 Route::get('units', 'PageController@units')->name('units');

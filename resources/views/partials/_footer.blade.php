@@ -33,17 +33,17 @@
                 <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
                     <div class="footer_about mt-45">
                         <h4 class="footer_title">Our other websites</h4>
-                        <p>Kindly our other websites...</p>
+                        <p>Kindly visit our other websites...</p>
                         <ul class="social">
                             <li><a href="https://futminna.edu.ng/" target="_blank"><img
                                         src="{{ asset('assets/images/futminna.png') }}" alt="" class="social_1"></a>
                             </li>
-                            <li><a href="https://ai4ce.com.ng/" target="_blank"><img
+                            <li><a href="http://143.110.227.122/" target="_blank"><img
                                         src="{{ asset('assets/images/ai4ce.jpeg') }}" alt="" class="social_1"></a>
                             </li>
 
                             <li><a href="https://uavcompetition.com.ng/" target="_blank"><img
-                                src="{{ asset('assets/images/uav.jpeg') }}" alt="" class="social_1"></a>
+                                        src="{{ asset('assets/images/uav.jpeg') }}" alt="" class="social_1"></a>
                             </li>
 
                             {{-- <li><a  href="ai4ce.com.ng"><img src="{{ asset('assets/images/futminna.png') }}" alt="" class="social_1"></a></li> --}}
@@ -55,11 +55,8 @@
         <div>
             <a href="#" class="back-to-top"><i class="lni lni-chevron-up" style="color: #fff!important;"></i></a>
         </div>
-        
+
         <p class="text-center mt-90"> &copy;
             2021 AEIRG. All rights reserved</p>
     </div>
 </section>
-
-
-

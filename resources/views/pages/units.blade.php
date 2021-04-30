@@ -24,8 +24,8 @@
                         </div>
 
                         <div class="services_content">
-                            <h4 class="title" style="font-size:18px!important;">E-Learning</h4>
-                            <p class="text-left" style="font-size: 14px;">The E-Learning Research Unit, a mem... <a
+                            <h4 class="title" style="font-size:18px!important;">e-Learning</h4>
+                            <p class="text-left" style="font-size: 14px;">The e-Learning unit, a member of... <a
                                     href="{{ route('Elearning') }}" class="btn btn-primary btn-sm">View Unit</a></p>
                         </div>
                     </div>
@@ -95,7 +95,8 @@
                         <div class="services_content">
                             <h4 class="title" style="font-size:18px!important;">Precision Agriculture</h4>
                             <p class="text-left" style="font-size: 14px;">The Percision Agriculture Research... <a
-                                    href="{{ route('precision_agric') }}" class="btn btn-primary btn-sm ">View Unit</a></p>
+                                    href="{{ route('precision_agric') }}" class="btn btn-primary btn-sm ">View Unit</a>
+                            </p>
                         </div>
                     </div>
                 </div>

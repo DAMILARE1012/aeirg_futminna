@@ -14,9 +14,10 @@
                     <div class="col-lg-6">
                         <div class="about_content">
                             <div class="section_title">
-                                <h3 class="title" tyle="text-align: centre!important;">About <span>e-Learning Unit</span></h3>
+                                <h3 class="title" tyle="text-align: centre!important;">About <span>e-Learning Unit</span>
+                                </h3>
                                 <p style="text-align: justify;">
-                                    The E-Learning Research Unit, a member of the Advanced Engineering Innovation Research
+                                    The e-Learning unit, a member of the Advanced Engineering Innovation Research
                                     Group (AEIRG) consists of researchers who specialise on the design, and deployment of
                                     state of the art Electronic learning management system. They specialize in the
                                     transformation of learning contents into multimedia interactive mode for the best
@@ -37,13 +38,18 @@
                                 </p>
                                 <h5 style="text-align: centre!important; color: red; margin-top: 10px;"><span>Vision</span>
                                 </h5>
-                                <p style="text-align: justify;">To be the hob for delivering E-learning services that will reposition the educational sector and change the narrative of education in Nigerian institutions and beyond.</p>
+                                <p style="text-align: justify;">To be the hob for delivering e-Learning services that will
+                                    reposition the educational sector and change the narrative of education in Nigerian
+                                    institutions and beyond.</p>
 
                                 <h5 style="text-align: centre!important; color: red; margin-top: 10px;"><span>Mission</span>
                                 </h5>
                                 <p>
                                 <ul style="list-style-type: square; margin-left: 50px;">
-                                    <li>The mission of the EL Research Unit is to design, develop and deploy multimedia interactive Electronic learning environments where learners feel supported. The unit will engage in developing the capacity of partners and administrators in the education sector.</li>
+                                    <li>The mission of the e-Learning unit is to design, develop and deploy multimedia
+                                        interactive Electronic learning environments where learners feel supported. The unit
+                                        will engage in developing the capacity of partners and administrators in the
+                                        education sector.</li>
                                     {{-- <li>Partner with other research communities to create
                                         a culture of high achievement.</li>
                                     <li>Create integrated services, transparent research administration, infrastructure, and
@@ -57,15 +63,19 @@
                                         Applications</span></h5>
                                 <p style="text-align: justify;">
                                     <b>Expertise</b><br>
-                                    <span style="margin-left: 30px;">Learning management systems/portals, Offline mobile apps for learning, Student information systems, Computer-aided learning resource development, Instructional designs, Quality Assurance and Standardization, and Course Management Processes.
-                                        </span> <br>
+                                    <span style="margin-left: 30px;">Learning management systems/portals, Offline mobile
+                                        apps for learning, Student information systems, Computer-aided learning resource
+                                        development, Instructional designs, Quality Assurance and Standardization, and
+                                        Course Management Processes.
+                                    </span> <br>
                                     <b>Applications</b> <br>
-                                    <span style="margin-left: 30px;">Tertiary institutions, Secondary & primary schools, Training institutes, Agriculture, Entrepreneurship centres, Online learning, Online Coaching, Online personal development
-                                        </span>
+                                    <span style="margin-left: 30px;">Tertiary institutions, Secondary & primary schools,
+                                        Training institutes, Agriculture, Entrepreneurship centres, Online learning, Online
+                                        Coaching, Online personal development
+                                    </span>
                                 </p>
                             </div>
-                            {{-- <a href="javascript:void(0)" class="main-btn">Read More</a>
-                            --}}
+                            {{-- <a href="javascript:void(0)" class="main-btn">Read More</a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -105,7 +115,7 @@
 
                         <h5 style="text-align: centre!important; color: red; margin-top: 10px;"><span
                                 style="margin: 20px;">Focus</span></h5>
-                        <p style="margin-left: 30px"> <em>Our focus at EnerTech Research Unit covers:</em>
+                        <p style="margin-left: 30px"> <em>Our focus at e-Learning unit covers:</em>
                         <ul style="list-style-type: square; margin-left: 50px; padding-top:5px;">
                             <li>Multimedia development</li>
                             <li>Video creations</li>
@@ -141,7 +151,8 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/units_pix/dr_caroline.png') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/dr_caroline.png') }}"
+                                class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Caroline Alenoghena (Ph.D)</h6>
                         <p class="text-muted">Team Lead</p>
@@ -152,7 +163,8 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/units_pix/kolo_ezra.jpeg') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/kolo_ezra.jpeg') }}"
+                                class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Kolo Ezra Zhiri</h6>
                         <p class="text-muted">Full Stack and Mobile App Developer</p>
@@ -163,7 +175,8 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/units_pix/benjamen.jpeg') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/benjamen.jpeg') }}"
+                                class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Benjamin Alenoghena</h6>
                         <p class="text-muted">Full Stack Web Developer</p>
@@ -174,7 +187,8 @@
                 <div class="col-lg-3">
                     <div class="team-box text-center py-3 rounded mt-4">
                         <div class="team-img">
-                            <img src="{{ asset('assets/images/units_pix/damilare.jpeg') }}" class="img-fluid rounded-circle" alt="">
+                            <img src="{{ asset('assets/images/units_pix/damilare.jpeg') }}"
+                                class="img-fluid rounded-circle" alt="">
                         </div>
                         <h6 class="f-18 mt-4 mb-2">Olatunji Damilare</h6>
                         <p class="text-muted">Front-End Web Developer</p>
