@@ -331,7 +331,7 @@
                     <div class="ab-info-con">
 
                         <a href="https:#">
-                            <h6 class="text-team-w3">Valuehandlers International LTD </h6>
+                            <h6 class="text-team-w3">Valuehandlers International LTD. </h6>
                         </a>
                         
                     </div>
